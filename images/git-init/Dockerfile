@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.15.0
 
 RUN addgroup -S -g 65532 nonroot && adduser -S -u 65532 nonroot -G nonroot
 
